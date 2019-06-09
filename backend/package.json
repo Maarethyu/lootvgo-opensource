@@ -9,7 +9,7 @@
         "db-setup": "cross-env NODE_ENV=development node db-setup.js",
         "start-production": "NODE_ENV=production npm run db-setup && pm2 startOrRestart ecosystem.json --max-memory-restart 8G && pm2 save"
     },
-    "author": "LootVGO",
+    "author": "Maarethyu, LootVGO",
     "license": "MIT",
     "private": true,
     "dependencies": {
